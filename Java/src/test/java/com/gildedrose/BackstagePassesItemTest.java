@@ -11,7 +11,7 @@ public class BackstagePassesItemTest {
   final static int QUALITY_INCREASE_MULTIPLIER_WITH_10_OR_LESS_DAYS_LEFT = 2;
   final static int QUALITY_INCREASE_MULTIPLIER_WITH_5_OR_LESS_DAYS_LEFT = 3;
 
-  final static int MAX_QUALITY                     = 50;
+  final static int MAX_QUALITY = BackstagePassItem.MAX_QUALITY;
 
   private final static String backstagePassesItemName = GildedRose.BACKSTAGE_PASSES_TO_TAFKAL80ETC;
 

@@ -9,7 +9,7 @@ public class AgedBrieItemTest {
 
   final static int POSITIVE_SELLIN_QUALITY_CHANGE_MULTIPLIER = 1;
   final static int NEGATIVE_SELLIN_QUALITY_CHANGE_MULTIPLIER = 2;
-  final static int MAX_QUALITY                               = 50;
+  final static int MAX_QUALITY                               = AgedBrieItem.MAX_QUALITY;
 
   private final static String agedBrieItemName = GildedRose.AGED_BRIE;
 
