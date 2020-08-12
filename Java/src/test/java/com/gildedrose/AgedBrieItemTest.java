@@ -11,7 +11,7 @@ public class AgedBrieItemTest {
   final static int NEGATIVE_SELLIN_QUALITY_CHANGE_MULTIPLIER = 2;
   final static int MAX_QUALITY                               = 50;
 
-  private final static String agedBrieItemName = "Aged Brie";
+  private final static String agedBrieItemName = GildedRose.AGED_BRIE;
 
   @Test
   @DisplayName( "as sellIn decreases, the quality increases" )

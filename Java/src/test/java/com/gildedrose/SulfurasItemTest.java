@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SulfurasItemTest {
 
   private final int sulfurasQuality = 80;
-  private final String sulfurasItemName = "Sulfuras, Hand of Ragnaros";
+  private final String sulfurasItemName = GildedRose.SULFURAS;
 
   @Test
   @DisplayName( "with initial sellIn above 0, neither sellIn nor quality do not change as days passes" )

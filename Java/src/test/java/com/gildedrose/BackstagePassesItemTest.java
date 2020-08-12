@@ -13,7 +13,7 @@ public class BackstagePassesItemTest {
 
   final static int MAX_QUALITY                     = 50;
 
-  private final static String backstagePassesItemName = "Backstage passes to a TAFKAL80ETC concert";
+  private final static String backstagePassesItemName = GildedRose.BACKSTAGE_PASSES_TO_TAFKAL80ETC;
 
   @Test
   @DisplayName( "quality increase with more than 10 days left before concert" )
