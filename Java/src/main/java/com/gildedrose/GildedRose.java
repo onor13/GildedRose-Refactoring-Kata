@@ -7,6 +7,10 @@ class GildedRose {
         this.items = items;
     }
 
+    public GildedRose(Item item) {
+        this.items = new Item[] { item };
+    }
+
     public void gotoNextDayAndUpdateQuality() {
         for (int i = 0; i < items.length; i++) {
             if (!items[i].name.equals("Aged Brie")
