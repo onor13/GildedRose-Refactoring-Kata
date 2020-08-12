@@ -16,6 +16,9 @@ public class ItemFactory {
     else if(item.name.equals(GildedRose.BACKSTAGE_PASSES_TO_TAFKAL80ETC)) {
       timedItem = new BackstagePassItem(item);
     }
+    else if(item.name.equals(GildedRose.CONJURED)) {
+      timedItem = new ConjuredItem(item);
+    }
     else{
       timedItem = new OrdinaryItem(item);
     }
